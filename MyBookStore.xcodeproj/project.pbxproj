@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B1A18315CD9225006ABD57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1A18215CD9225006ABD57 /* UIKit.framework */; };
+		07B1A18515CD9225006ABD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1A18415CD9225006ABD57 /* Foundation.framework */; };
+		07B1A18715CD9225006ABD57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1A18615CD9225006ABD57 /* CoreGraphics.framework */; };
+		07B1A18D15CD9225006ABD57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B1A18B15CD9225006ABD57 /* InfoPlist.strings */; };
+		07B1A18F15CD9225006ABD57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A18E15CD9225006ABD57 /* main.m */; };
+		07B1A19315CD9225006ABD57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A19215CD9225006ABD57 /* AppDelegate.m */; };
+		07B1A19615CD9225006ABD57 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A19515CD9225006ABD57 /* MasterViewController.m */; };
+		07B1A19915CD9225006ABD57 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A19815CD9225006ABD57 /* DetailViewController.m */; };
+		07B1A19C15CD9225006ABD57 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B1A19A15CD9225006ABD57 /* MasterViewController.xib */; };
+		07B1A19F15CD9225006ABD57 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B1A19D15CD9225006ABD57 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B1A17E15CD9225006ABD57 /* MyBookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B1A18215CD9225006ABD57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07B1A18415CD9225006ABD57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07B1A18615CD9225006ABD57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07B1A18A15CD9225006ABD57 /* MyBookStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyBookStore-Info.plist"; sourceTree = "<group>"; };
+		07B1A18C15CD9225006ABD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07B1A18E15CD9225006ABD57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B1A19015CD9225006ABD57 /* MyBookStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyBookStore-Prefix.pch"; sourceTree = "<group>"; };
+		07B1A19115CD9225006ABD57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07B1A19215CD9225006ABD57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07B1A19415CD9225006ABD57 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		07B1A19515CD9225006ABD57 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		07B1A19715CD9225006ABD57 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		07B1A19815CD9225006ABD57 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		07B1A19B15CD9225006ABD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		07B1A19E15CD9225006ABD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B1A17B15CD9225006ABD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B1A18315CD9225006ABD57 /* UIKit.framework in Frameworks */,
+				07B1A18515CD9225006ABD57 /* Foundation.framework in Frameworks */,
+				07B1A18715CD9225006ABD57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B1A17315CD9225006ABD57 = {
+			isa = PBXGroup;
+			children = (
+				07B1A18815CD9225006ABD57 /* MyBookStore */,
+				07B1A18115CD9225006ABD57 /* Frameworks */,
+				07B1A17F15CD9225006ABD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B1A17F15CD9225006ABD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B1A17E15CD9225006ABD57 /* MyBookStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B1A18115CD9225006ABD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B1A18215CD9225006ABD57 /* UIKit.framework */,
+				07B1A18415CD9225006ABD57 /* Foundation.framework */,
+				07B1A18615CD9225006ABD57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07B1A18815CD9225006ABD57 /* MyBookStore */ = {
+			isa = PBXGroup;
+			children = (
+				07B1A19115CD9225006ABD57 /* AppDelegate.h */,
+				07B1A19215CD9225006ABD57 /* AppDelegate.m */,
+				07B1A19415CD9225006ABD57 /* MasterViewController.h */,
+				07B1A19515CD9225006ABD57 /* MasterViewController.m */,
+				07B1A19715CD9225006ABD57 /* DetailViewController.h */,
+				07B1A19815CD9225006ABD57 /* DetailViewController.m */,
+				07B1A19A15CD9225006ABD57 /* MasterViewController.xib */,
+				07B1A19D15CD9225006ABD57 /* DetailViewController.xib */,
+				07B1A18915CD9225006ABD57 /* Supporting Files */,
+			);
+			path = MyBookStore;
+			sourceTree = "<group>";
+		};
+		07B1A18915CD9225006ABD57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B1A18A15CD9225006ABD57 /* MyBookStore-Info.plist */,
+				07B1A18B15CD9225006ABD57 /* InfoPlist.strings */,
+				07B1A18E15CD9225006ABD57 /* main.m */,
+				07B1A19015CD9225006ABD57 /* MyBookStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B1A17D15CD9225006ABD57 /* MyBookStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B1A1A215CD9225006ABD57 /* Build configuration list for PBXNativeTarget "MyBookStore" */;
+			buildPhases = (
+				07B1A17A15CD9225006ABD57 /* Sources */,
+				07B1A17B15CD9225006ABD57 /* Frameworks */,
+				07B1A17C15CD9225006ABD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBookStore;
+			productName = MyBookStore;
+			productReference = 07B1A17E15CD9225006ABD57 /* MyBookStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B1A17515CD9225006ABD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Saba Samet";
+			};
+			buildConfigurationList = 07B1A17815CD9225006ABD57 /* Build configuration list for PBXProject "MyBookStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07B1A17315CD9225006ABD57;
+			productRefGroup = 07B1A17F15CD9225006ABD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B1A17D15CD9225006ABD57 /* MyBookStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B1A17C15CD9225006ABD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B1A18D15CD9225006ABD57 /* InfoPlist.strings in Resources */,
+				07B1A19C15CD9225006ABD57 /* MasterViewController.xib in Resources */,
+				07B1A19F15CD9225006ABD57 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B1A17A15CD9225006ABD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B1A18F15CD9225006ABD57 /* main.m in Sources */,
+				07B1A19315CD9225006ABD57 /* AppDelegate.m in Sources */,
+				07B1A19615CD9225006ABD57 /* MasterViewController.m in Sources */,
+				07B1A19915CD9225006ABD57 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07B1A18B15CD9225006ABD57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B1A18C15CD9225006ABD57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07B1A19A15CD9225006ABD57 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B1A19B15CD9225006ABD57 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		07B1A19D15CD9225006ABD57 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B1A19E15CD9225006ABD57 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B1A1A015CD9225006ABD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07B1A1A115CD9225006ABD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B1A1A315CD9225006ABD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyBookStore/MyBookStore-Prefix.pch";
+				INFOPLIST_FILE = "MyBookStore/MyBookStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07B1A1A415CD9225006ABD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyBookStore/MyBookStore-Prefix.pch";
+				INFOPLIST_FILE = "MyBookStore/MyBookStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B1A17815CD9225006ABD57 /* Build configuration list for PBXProject "MyBookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B1A1A015CD9225006ABD57 /* Debug */,
+				07B1A1A115CD9225006ABD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B1A1A215CD9225006ABD57 /* Build configuration list for PBXNativeTarget "MyBookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B1A1A315CD9225006ABD57 /* Debug */,
+				07B1A1A415CD9225006ABD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B1A17515CD9225006ABD57 /* Project object */;
+}
