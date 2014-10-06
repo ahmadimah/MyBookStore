@@ -9,6 +9,8 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "Book.h"
+#import "BookStore.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -17,11 +19,15 @@
 
 @implementation MasterViewController
 
+@synthesize detailViewController = _detailViewController;
+@synthesize myBookStore;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Master", @"Master");
+        self.title = NSLocalizedString(@"Book Store", @"Book Store");
+        self.myBookStore = [[BookStore alloc] init];
     }
     return self;
 }
@@ -66,7 +72,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    return self.myBookStore.count;
 }
 
 // Customize the appearance of table view cells.
@@ -80,9 +86,7 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 
-
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    cell.textLabel.text = [self.myBookStore bookAtIndex:indexPath.row].title;
     return cell;
 }
 
@@ -120,11 +124,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    Book *selectedBook = [self.myBookStore bookAtIndex:indexPath.row];
+    
     if (!self.detailViewController) {
         self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     }
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    self.detailViewController.detailItem = object;
+    self.detailViewController.detailItem = selectedBook;
     [self.navigationController pushViewController:self.detailViewController animated:YES];
 }
 

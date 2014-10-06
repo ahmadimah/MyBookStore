@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "Book.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -15,6 +16,8 @@
 @implementation DetailViewController
 
 #pragma mark - Managing the detail item
+
+@synthesize titleLable, authorLable, descriptionTextView, priceLable, isbnLable;
 
 - (void)setDetailItem:(id)newDetailItem
 {
@@ -31,7 +34,12 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        Book *theBook = (Book *)self.detailItem;
+        self.titleLable.text = theBook.title;
+        self.authorLable.text = theBook.author;
+        self.descriptionTextView.text = theBook.description;
+        self.priceLable.text = [NSString stringWithFormat:@"$%d", theBook.price];
+        self.isbnLable.text = theBook.isbn;
     }
 }
 
@@ -57,7 +65,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Detail", @"Detail");
+        self.title = NSLocalizedString(@"Selected Book", @"Selected Book");
     }
     return self;
 }

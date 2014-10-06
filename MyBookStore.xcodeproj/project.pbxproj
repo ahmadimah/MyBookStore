@@ -17,6 +17,8 @@
 		07B1A19915CD9225006ABD57 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A19815CD9225006ABD57 /* DetailViewController.m */; };
 		07B1A19C15CD9225006ABD57 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B1A19A15CD9225006ABD57 /* MasterViewController.xib */; };
 		07B1A19F15CD9225006ABD57 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B1A19D15CD9225006ABD57 /* DetailViewController.xib */; };
+		07B1A1A715CD92D0006ABD57 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A1A615CD92D0006ABD57 /* Book.m */; };
+		07B1A1AA15CD932B006ABD57 /* BookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B1A1A915CD932B006ABD57 /* BookStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,10 @@
 		07B1A19815CD9225006ABD57 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		07B1A19B15CD9225006ABD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		07B1A19E15CD9225006ABD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		07B1A1A515CD92D0006ABD57 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		07B1A1A615CD92D0006ABD57 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		07B1A1A815CD932B006ABD57 /* BookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStore.h; sourceTree = "<group>"; };
+		07B1A1A915CD932B006ABD57 /* BookStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				07B1A19A15CD9225006ABD57 /* MasterViewController.xib */,
 				07B1A19D15CD9225006ABD57 /* DetailViewController.xib */,
 				07B1A18915CD9225006ABD57 /* Supporting Files */,
+				07B1A1A515CD92D0006ABD57 /* Book.h */,
+				07B1A1A615CD92D0006ABD57 /* Book.m */,
+				07B1A1A815CD932B006ABD57 /* BookStore.h */,
+				07B1A1A915CD932B006ABD57 /* BookStore.m */,
 			);
 			path = MyBookStore;
 			sourceTree = "<group>";
@@ -174,6 +184,8 @@
 				07B1A19315CD9225006ABD57 /* AppDelegate.m in Sources */,
 				07B1A19615CD9225006ABD57 /* MasterViewController.m in Sources */,
 				07B1A19915CD9225006ABD57 /* DetailViewController.m in Sources */,
+				07B1A1A715CD92D0006ABD57 /* Book.m in Sources */,
+				07B1A1AA15CD932B006ABD57 /* BookStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
